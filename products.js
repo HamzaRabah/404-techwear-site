@@ -8,15 +8,15 @@ const products = [
         images: [
             {
                 src: "assets/images/no-internet-store-view.webp",
-                alt: "t-shirt front view"
+                alt: "t-shirt store view"
             },
             {
-                src: "assets/images/no-internet-store-view.webp",
-                alt: "t-shirt back view"
+                src: "assets/images/no-internet-tshirt-view.webp",
+                alt: "t-shirt view"
             },
             {
-                src: "assets/images/no-internet-store-view.webp",
-                alt: "t-shirt detail view"
+                src: "assets/images/no-internet-zoom-view.webp",
+                alt: "t-shirt zoom view"
             }
         ],
         colors: ["Off-White"],
