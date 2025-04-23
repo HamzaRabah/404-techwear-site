@@ -597,7 +597,8 @@ function getColorCode(colorName) {
     const colorMap = {
         'Black': '#121212',
         'Gray': '#808080',
-        'Beige': '#F5F5DC'
+        'Beige': '#F5F5DC',
+        'Off-White': '#f2f0ed',
         // Add more colors as needed
     };
 
