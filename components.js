@@ -235,8 +235,8 @@ function HeroSection() {
         <section className="hero">
             <div className="container">
                 <div className="badge">Damascus, Syria</div>
-                <h1>The Missing Line of Code<br/>Your Wardrobe Needs</h1>
-                <p>Premium techwear for developers and designers. High-quality shirts with tech-inspired designs that speak your language.</p>
+                <h1>Hello, World of Fashion</h1>
+                <p>Premium tech-wear for developers and designers.<br/>High-quality shirts with tech-inspired designs that speak your language.</p>
 
                 <div className="terminal">
                     <div className="terminal-header">
