@@ -10,10 +10,10 @@ const products = [
                 src: "assets/images/no-internet-zoom-view.webp",
                 alt: "t-shirt zoom view"
             },
-            {
-                src: "assets/images/no-internet-tshirt-view.webp",
-                alt: "t-shirt view"
-            }
+            // {
+            //     src: "assets/images/no-internet-tshirt-view.webp",
+            //     alt: "t-shirt view"
+            // }
         ],
         colors: ["Off-White"],
         defaultColor: "Off-White",
@@ -30,10 +30,10 @@ const products = [
                 src: "assets/images/chatgpt-zoom-view.webp",
                 alt: "t-shirt zoom view"
             },
-            {
-                src: "assets/images/chatgpt-tshirt-view.webp",
-                alt: "t-shirt view"
-            }
+            // {
+            //     src: "assets/images/chatgpt-tshirt-view.webp",
+            //     alt: "t-shirt view"
+            // }
         ],
         colors: ["Off-White"],
         defaultColor: "Off-White",
@@ -50,10 +50,10 @@ const products = [
                 src: "assets/images/works-locally-zoom-view.webp",
                 alt: "t-shirt zoom view"
             },
-            {
-                src: "assets/images/works-locally-tshirt-view.webp",
-                alt: "t-shirt view"
-            }
+            // {
+            //     src: "assets/images/works-locally-tshirt-view.webp",
+            //     alt: "t-shirt view"
+            // }
         ],
         colors: ["Off-White"],
         defaultColor: "Off-White",
