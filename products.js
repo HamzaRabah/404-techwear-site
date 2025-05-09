@@ -25,20 +25,24 @@ const products = [
         status: "available" // available or coming-soon
     },
     {
-        id: "console-log",
-        name: "console.log(\"Hello World\")",
-        description: "The developer's first line of code and most trusted debugging tool.",
+        id: "new-default",
+        name: "New Default",
+        description: "When search engines became fallback tools, and ChatGPT became your first stop. A subtle nod to how we code, learn, and think today.",
         price: 19.99,
         images: [
             {
-                src: "assets/images/404_Logo-Black.webp",
-                alt: "git commit t-shirt front view"
+                src: "assets/images/chatgpt-tshirt-view.webp",
+                alt: "t-shirt view"
+            },
+            {
+                src: "assets/images/chatgpt-zoom-view.webp",
+                alt: "t-shirt zoom view"
             }
         ],
-        colors: ["Black", "Gray", "Off-White"],
+        colors: ["Off-White"],
         defaultColor: "Off-White",
         sizes: ["M", "L", "XL"],
-        status: "coming-soon"
+        status: "available"
     },
     {
         id: "git-commit",
