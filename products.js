@@ -31,12 +31,12 @@ const products = [
         price: 19.99,
         images: [
             {
-                src: "assets/images/chatgpt-tshirt-view.webp",
-                alt: "t-shirt view"
-            },
-            {
                 src: "assets/images/chatgpt-zoom-view.webp",
                 alt: "t-shirt zoom view"
+            },
+            {
+                src: "assets/images/chatgpt-tshirt-view.webp",
+                alt: "t-shirt view"
             }
         ],
         colors: ["Off-White"],
