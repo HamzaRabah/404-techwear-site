@@ -7,16 +7,12 @@ const products = [
         price: 19.99,
         images: [
             {
-                src: "assets/images/no-internet-store-view.webp",
-                alt: "t-shirt store view"
+                src: "assets/images/no-internet-zoom-view.webp",
+                alt: "t-shirt zoom view"
             },
             {
                 src: "assets/images/no-internet-tshirt-view.webp",
                 alt: "t-shirt view"
-            },
-            {
-                src: "assets/images/no-internet-zoom-view.webp",
-                alt: "t-shirt zoom view"
             }
         ],
         colors: ["Off-White"],
@@ -45,19 +41,23 @@ const products = [
         status: "available"
     },
     {
-        id: "git-commit",
-        name: "git commit -m \"Style Update\"",
-        description: "For when you're committed to looking good while coding.",
+        id: "works-locally",
+        name: "Works Locally",
+        description: "If it works here, it’s not my fault it breaks there. A badge of every dev’s quiet truth: one environment’s success is another’s headache.",
         price: 19.99,
         images: [
             {
-                src: "assets/images/404_Logo-Black.webp",
-                alt: "git commit t-shirt front view"
+                src: "assets/images/works-locally-zoom-view.webp",
+                alt: "t-shirt zoom view"
+            },
+            {
+                src: "assets/images/works-locally-tshirt-view.webp",
+                alt: "t-shirt view"
             }
         ],
-        colors: ["Black", "Gray", "Off-White"],
+        colors: ["Off-White"],
         defaultColor: "Off-White",
         sizes: ["M", "L", "XL"],
-        status: "coming-soon"
+        status: "available"
     }
 ];
