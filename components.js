@@ -335,7 +335,7 @@ function ProductCard({ product, openOrderModal }) {
                         Order Now
                     </button>
                     <a
-                        href={`https://wa.me/123456789?text=I'm%20interested%20in%20ordering%20the%20'${encodeURIComponent(product.name)}'%20t-shirt`}
+                        href={`https://wa.me/+963935776387?text=I'm%20interested%20in%20ordering%20the%20'${encodeURIComponent(product.name)}'%20t-shirt`}
                         className="btn btn-outline whatsapp-btn"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -416,9 +416,9 @@ function ContactSection() {
                         </svg>
                     </div>
                     <div className="instagram-info">
-                        <h3>@404_Techwear</h3>
+                        <h3>@404__wear</h3>
                         <p>Our only official communication channel</p>
-                        <a href="https://instagram.com/404_techwear" className="btn" target="_blank">Follow Us</a>
+                        <a href="https://www.instagram.com/404__wear" className="btn" target="_blank">Follow Us</a>
                     </div>
                 </div>
             </div>
@@ -537,7 +537,7 @@ function OrderModal({ product, color, onClose, onSubmit, formRef, orderSuccess, 
 
                             <div className="form-group">
                                 <label htmlFor="email">Email:</label>
-                                <input type="email" id="email" name="email" required />
+                                <input type="email" id="email" name="email" />
                             </div>
 
                             <div className="form-group">
