@@ -287,7 +287,6 @@ function setupOrderModal() {
         // For demonstration: show success message without actual form submission
         // In production, you would uncomment this section to submit to Formspree
 
-        /*
         fetch(orderForm.action, {
             method: orderForm.method,
             body: new FormData(orderForm),
@@ -308,10 +307,9 @@ function setupOrderModal() {
             console.error(error);
             alert('There was a problem submitting your order. Please try again.');
         });
-        */
 
         // For demonstration purposes - show success without actual submission
-        orderForm.style.display = 'none';
-        document.querySelector('.form-success-message').style.display = 'block';
+        // orderForm.style.display = 'none';
+        // document.querySelector('.form-success-message').style.display = 'block';
     });
 }

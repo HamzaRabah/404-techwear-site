@@ -51,10 +51,9 @@ function App() {
         setOrderId(newOrderId);
 
         // Show success message
-        setOrderSuccess(true);
+        // setOrderSuccess(true);
 
         // In a real implementation, you would submit to Formspree here
-        /*
         fetch(orderFormRef.current.action, {
           method: orderFormRef.current.method,
           body: formData,
@@ -74,7 +73,6 @@ function App() {
           console.error(error);
           alert('There was a problem submitting your order. Please try again.');
         });
-        */
     };
 
     // Function to save order to localStorage
