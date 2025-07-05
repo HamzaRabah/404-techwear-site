@@ -59,5 +59,21 @@ const products = [
         defaultColor: "Off-White",
         sizes: ["M", "L", "XL"],
         status: "available"
+    },
+    {
+        id: "new-syria",
+        name: "New Syria",
+        description: "A bold and simple design with the New Syria logo and a message of pride: “Damascus is ours until the end of time.”",
+        price: 16,
+        images: [
+            {
+                src: "assets/images/new-syria-zoom-view.webp",
+                alt: "t-shirt zoom view"
+            }
+        ],
+        colors: ["Off-White"],
+        defaultColor: "Off-White",
+        sizes: ["M", "L", "XL"],
+        status: "available"
     }
 ];
